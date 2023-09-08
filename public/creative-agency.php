@@ -27,36 +27,36 @@
             class="flex min-h-screen flex-col bg-white bg-gradient-to-r from-[#FCF1F4] to-[#EDFBF9] font-mulish text-base font-normal text-gray antialiased dark:bg-[#101926] dark:from-transparent dark:to-transparent"
         >
 
-            <?php require_once('/partials/header.php'); ?>
+            <?php include_once('/partials/header.php'); ?>
 
 
             <div class="-mt-[82px] flex-grow lg:-mt-[106px]">
 
                 <div class="h-20 bg-black lg:h-[104px]"></div>
 
-                <?php require_once('partials/home-banner.php'); ?>
+                <?php include_once('partials/home-banner.php'); ?>
                 
-                <?php require_once('partials/brands-caurosel.php'); ?>
+                <?php include_once('partials/brands-caurosel.php'); ?>
                 
-                <?php require_once('partials/who-we-are.php'); ?>
+                <?php include_once('partials/who-we-are.php'); ?>
 
-                <?php require_once('partials/features.php'); ?>
+                <?php include_once('partials/features.php'); ?>
 
-                <?php require_once('partials/stats.php'); ?>
+                <?php include_once('partials/stats.php'); ?>
 
-                <?php require_once('partials/case-stadies.php'); ?>
+                <?php include_once('partials/case-stadies.php'); ?>
 
-                <?php require_once('partials/lets-work-to-gether.php'); ?>
+                <?php include_once('partials/lets-work-to-gether.php'); ?>
 
             </div>
 
-            <?php require_once('partials/footer.php'); ?>
+            <?php include_once('partials/footer.php'); ?>
 
         </div>
 
-        <?php require_once('partials/scroll-top.php'); ?>
+        <?php include_once('partials/scroll-top.php'); ?>
 
-        <?php require_once('partials/scripts.php'); ?>
+        <?php include_once('partials/scripts.php'); ?>
 
  
     </body>
