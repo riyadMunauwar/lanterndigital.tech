@@ -21,13 +21,13 @@
 
     <body>
 
-        <?php include_once('/partials/screen-loeader.php'); ?>
+        <?php include_once('partials/screen-loeader.php'); ?>
         
         <div
             class="flex min-h-screen flex-col bg-white bg-gradient-to-r from-[#FCF1F4] to-[#EDFBF9] font-mulish text-base font-normal text-gray antialiased dark:bg-[#101926] dark:from-transparent dark:to-transparent"
         >
 
-            <?php include_once('/partials/header.php'); ?>
+            <?php include_once('partials/header.php'); ?>
 
 
             <div class="-mt-[82px] flex-grow lg:-mt-[106px]">
